@@ -1,0 +1,58 @@
+
+/*TARGETAS*/
+.game-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 30%);
+    height: 85%;
+    gap:1%;
+}
+
+.targ{
+    image-rendering:optimizeSpeed;
+    width: 100%;
+    height: 100%;
+
+}
+.card-name{
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: 1;
+    display: flex;
+    text-decoration: none;
+    
+   
+}
+.card-title{
+    display: flex;
+    
+}
+
+.card{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    text-decoration: none;
+  
+ 
+}
+
+.top-rating{
+    /* background-color: rgb(211, 194, 11); */
+    position: center;
+}
+
+.create-game{
+    /* background-color: rgb(44, 11, 211); */
+   display: flex;
+   flex-direction: column;
+
+}
+
+
+.paginado{
+    display: flex;
+    justify-content: space-around;
+}
+

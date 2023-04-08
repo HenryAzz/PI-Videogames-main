@@ -1,0 +1,79 @@
+.Aside {
+    display: grid;
+    flex-direction: column;
+    height: 90vh;
+  }
+  .aside {
+    background: inherit;
+    transition: 0.5s;
+    box-shadow: 100cm;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    border-radius: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5vh 3vh 5vh 4vh;
+  }
+  .aside::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(243, 110, 255, 0.5);
+    filter: blur(0.5vh);
+    background: inherit;
+  }
+  .aside:hover {
+    transition: 1s;
+    transform: translate(-10px, -10px);
+    background-color: rgba(104, 28, 198, 0.77);
+    backdrop-filter: blur(5px);
+  }
+  
+  .aside-title{
+    margin: 2%;
+    display: flex;
+    align-items:self-start;
+    flex-direction: column;
+  }
+  .img-title{
+    display: flex;
+  }
+  .dates{
+    margin: 0 5%;
+   
+    text-shadow: #000000 1px 0 10px;
+    font-family: 'Press Start 2P', cursive; color:rgba(241, 230, 230, 0.881);
+  font-size: 2vh;
+}
+
+.h2{
+  margin: 6%;
+}
+.genres{
+    margin-top: 3%;
+    text-shadow: #000000 1px 0 10px;
+    font-family: 'Press Start 2P', cursive; color:rgba(241, 230, 230, 0.881);
+  font-size: 2vh;
+}
+.platforms{
+  margin-top: 3%;
+  margin-bottom: 5%;
+   text-shadow: #000000 1px 0 10px;
+    font-family: 'Press Start 2P', cursive; color:rgba(241, 230, 230, 0.881);
+  font-size: 2vh;
+
+}
+
+.cont-img{
+  
+  margin: auto;
+}
+.img{
+    max-width: 50vh;
+    max-height: 50vh;
+
+}

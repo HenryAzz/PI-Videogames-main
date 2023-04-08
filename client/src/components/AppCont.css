@@ -1,0 +1,7 @@
+.AppCont{
+    background: rgb(0, 0, 0);    
+    display: grid;
+    grid-template-columns: 72% 28%;
+    height: 90vh;
+}
+
